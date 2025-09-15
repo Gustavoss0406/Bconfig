@@ -1,1 +1,16 @@
-
+{
+  "name": "binance-proxy",
+  "version": "1.0.0",
+  "description": "Proxy reverso para Binance API para evitar bloqueios de IP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.9"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
